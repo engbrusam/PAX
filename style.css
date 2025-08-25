@@ -453,21 +453,21 @@ img.emoji {
     display: grid;
     /* Grid com 5 colunas em desktop, responsivo para menos colunas em dispositivos menores */
     grid-template-columns: repeat(5, 1fr);
-    gap: 1.5rem; /* Espaçamento uniforme entre as logos */
+    gap: 2rem; /* Espaçamento aumentado entre as logos */
     align-items: center; /* Alinha verticalmente */
     justify-items: center; /* Alinha horizontalmente */
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 .nossos-clientes .flex figure {
     margin: 0;
     text-align: center;
     border: 0 !important;
-    padding: 1.5rem !important;
+    padding: 2rem !important;
     width: 100% !important;
-    height: 280px !important;
+    height: 350px !important;
     background: none !important;
     display: flex;
     align-items: center;
@@ -481,7 +481,7 @@ img.emoji {
 
 .nossos-clientes .flex img {
     max-width: 100%;
-    max-height: 200px;
+    max-height: 300px;
     width: auto;
     height: auto;
     object-fit: contain;
@@ -497,33 +497,33 @@ img.emoji {
 @media (max-width: 768px) {
     .nossos-clientes .flex {
         grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-        padding: 1.5rem 0;
+        gap: 1.5rem;
+        padding: 2rem 0;
     }
     
     .nossos-clientes .flex figure {
-        height: 200px !important;
-        padding: 1rem !important;
+        height: 250px !important;
+        padding: 1.5rem !important;
     }
     
     .nossos-clientes .flex img {
-        max-height: 150px;
+        max-height: 200px;
     }
 }
 
 @media (max-width: 480px) {
     .nossos-clientes .flex {
         grid-template-columns: repeat(2, 1fr);
-        gap: 0.8rem;
+        gap: 1rem;
     }
     
     .nossos-clientes .flex figure {
-        height: 180px !important;
-        padding: 0.8rem !important;
+        height: 220px !important;
+        padding: 1rem !important;
     }
     
     .nossos-clientes .flex img {
-        max-height: 130px;
+        max-height: 180px;
     }
 }
 
