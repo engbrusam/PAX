@@ -451,12 +451,12 @@ img.emoji {
 /* Estilos para a seção de clientes */
 .nossos-clientes .flex {
     display: grid;
-    /* Grid com 4 colunas em desktop para dar mais espaço às logos */
-    grid-template-columns: repeat(4, 1fr);
+    /* Grid com 5 colunas em desktop com largura máxima aumentada */
+    grid-template-columns: repeat(5, 1fr);
     gap: 2rem; /* Espaçamento aumentado entre as logos */
     align-items: center; /* Alinha verticalmente */
     justify-items: center; /* Alinha horizontalmente */
-    max-width: 1600px;
+    max-width: 2000px;
     margin: 0 auto;
     padding: 3rem 0;
 }
